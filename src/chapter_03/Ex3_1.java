@@ -1,7 +1,9 @@
+package chapter_03;
 
-public class Exercise3_1 {
+public class Ex3_1 {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		int x= 2;
 		int y= 5;
 		char c ='A';
