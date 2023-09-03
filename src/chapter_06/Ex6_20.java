@@ -5,7 +5,7 @@ public class Ex6_20 {
 	static int[] shuffle(int[] arr) {
 		int[] mix = arr.clone();
 		for(int i=0; i<100; i++) {
-		int idx1 =(int)(Math.random()*arr.length);
+		int idx1 =(int)(Math.random()*arr.length);//위치랜덤
 		int idx2 = (int)(Math.random()*arr.length);
 		int temp =mix[idx1];
 		mix[idx1]=mix[idx2];
